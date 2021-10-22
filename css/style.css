@@ -430,12 +430,20 @@ img {
 .address {
   display: block;
   font-style: normal;
+  width: 231px;
+  height: 81px;
 }
 
 .footer {
   background-color: var(--first-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+}
+
+.footer-left {
+  margin-left: 200px;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -455,4 +463,54 @@ img {
 .adress-mail,
 .adress-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-right {
+  width: 260px;
+  height: 80px;
+  margin-right: 878px;
+  margin-top: 15px;
+}
+
+.join {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--second-text-color);
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+
+.footer-social-icon {
+  fill: var(--second-text-color);
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-text-color);
 }
